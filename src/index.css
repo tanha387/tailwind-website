@@ -11,7 +11,7 @@
         @apply bg-black text-white p-16 px-28 text-3xl   ;
       }
       .fourth-img{
-        @apply  mx-auto h-auto w-2/3  xl:w-2/3  md:w-full lg:w-1/2 xl:w-1/2 mt-4;
+        @apply  mx-auto h-auto w-full px-5 py-5;
 
       }
   

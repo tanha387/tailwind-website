@@ -7,8 +7,8 @@ export const Footer = () => {
     <div className='max-container grid grid-cols-1   md:grid-cols-4 lg:grid-cols-4 mb-4 mt-16'>
 
         <div>
-        <img src={logoImg} alt="Description" className="w-28 mt-1.5 md:mt-0 md:ml-32" />
-        <img src={logoImg1} alt="Description" className="w-28 mt-1.5 md:mt-0 md:ml-32 mt-16" />
+        <img src={logoImg} alt="Description" className="w-28 mt-1.5 items-center md:mt-0 md:ml-32" />
+       
         <p className='text-xs ms-16'>Copyright And fetchtech.All rights reserved</p>
         </div>
 

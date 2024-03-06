@@ -1,0 +1,36 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+@layer utilities {
+    /* CONTAINER */
+    .max-container {
+      @apply mx-auto max-w-[1440px];
+    }
+    .second {
+        @apply bg-black text-white p-16 px-28 text-3xl   ;
+      }
+      .fourth-img{
+        @apply  w-auto sm:w-1/2 md:w-auto lg:w-auto;
+
+      }
+  
+  
+
+
+  
+
+  .sevenpart{
+    @apply  h-auto w-2/3 shadow-sm bg-slate-100 px-6;
+
+  }
+  .common{
+    @apply  py-2;
+
+  }
+  .button-seven{
+    @apply  bg-black text-white h-11 w-64 rounded mt-5 mb-4;
+
+  }
+
+}

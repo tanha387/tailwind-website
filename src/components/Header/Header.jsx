@@ -7,9 +7,9 @@ export const Header = () => {
     <div className="logo ">
       <img src={logoImg} alt="Description" className="w-28 mt-1.5 md:mt-0 md:ml-32" />
     </div>
-    <div class="grid grid-cols-1 md:grid-cols-2  lg:grid-cols-2">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-5  lg:grid-cols-2">
   <NavLink class="ms-4 " to="/">Home</NavLink>
-  <NavLink class="ms-6  " to="/about">About</NavLink>
+  <NavLink class="md:ms-5 sm:ms-0 " to="/about">About</NavLink>
 </div>
 
 
